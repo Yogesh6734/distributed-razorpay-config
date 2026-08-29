@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource: 
-    url: jdbc:postgresql:://localhost:5433/razorpay-merchant-db
+    url: jdbc:postgresql:://localhost:5431/razorpay-merchant-db
 
 app:
   webhook:
