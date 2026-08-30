@@ -7,11 +7,11 @@ app:
     public-routes:
       -"/v1/auth/**"
       -"/webhook/**"
-    rate-limit:
-      method: fixed
-      use-case:
-        api-key:
-          requests-per-minute: 200
+  rate-limit:
+    method: fixed
+    use-case:
+      api-key:
+        requests-per-minute: 200
 
 
 spring:
