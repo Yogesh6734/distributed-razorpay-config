@@ -9,9 +9,9 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
-    datasource:
-      username: yogesh
-      password: password
+  datasource:
+    username: yogesh
+    password: password
   data:
     redis:
       host: localhost
