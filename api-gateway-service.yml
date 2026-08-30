@@ -5,8 +5,8 @@ app:
   security:
     trust-inbound-headers: false
     public-routes:
-      -"/v1/auth/**"
-      -"/webhook/**"
+      - "/1/auth/**"
+      - "/webhook/**"
   rate-limit:
     method: fixed
     use-case:
